@@ -1,7 +1,11 @@
 /**
- * Linked list class
+ * This file contains a MyLinkedList class used to create, structure, organize, add to, remove from, and access a linked list of data. 
  * 
  * @author <Aiden Rowe>
+ * 
+ * This file is a part of a lab project from Oberlin College that was assigned in Professor Adam Eck's Data Structures 151 class on Oct 9, 2023. 
+ * 
+ * This file was authored in its entirety by Aiden Rowe but uses instructions contributed to by the following faculty members in the Oberlin College Computer Science Department: Stephen Checkoway, Adam Eck, Molly Q Feldman, Blair Rossetti, Alexa Sharp, Sam Taggart, Cynthia Taylor, Emily Wang, Tom Wexler, Lucas Draper. The lab instructions were also contributed to by the following Oberlin Students: Veronica Ayars, Hannah Babe, Tara Bobinac, Meg Davis, Eliza Bomfim Guimaraes Giane, William Knowles-Kellett, Pascale Leone, Mist Newman, Marilyn Recarte, Shiying Zheng.
 */
 
 // IMPORTS 
@@ -405,7 +409,7 @@ import java.util.NoSuchElementException;
             if (!hasPrevious()) {
                 throw new NoSuchElementException("There is no previous element in the current list");
 
-            // There's a Previous
+            // There is a Previous
             } else {
                 
                 // Setting Next
@@ -421,7 +425,8 @@ import java.util.NoSuchElementException;
 
         //-----------------------------------------------
 
-        // Uneeded Stuff For This Lab
+        // Uneeded Stuff
+        /* The following methods are required in a class that extends AbstractList, however they were not used for this lab */
         public int nextIndex() {throw new UnsupportedOperationException();}
         public int previousIndex() {throw new UnsupportedOperationException();}
         public void add(T item) {throw new UnsupportedOperationException();}

@@ -1,7 +1,11 @@
-/*
- *  This class is used to create, structure, organize, add to, remove from, and access an array of data 
+/**
+ * This file contains a MyArrayList class used to create, structure, organize, add to, remove from, and access an array of data. 
  * 
  * @author Aiden Rowe 
+ * 
+ * This file is a part of a lab project from Oberlin College that was assigned in Professor Adam Eck's Data Structures 151 class on Oct 5, 2023. 
+ * 
+ * This file was authored in its entirety by Aiden Rowe but uses instructions contributed to by the following faculty members in the Oberlin College Computer Science Department: Stephen Checkoway, Adam Eck, Molly Q Feldman, Blair Rossetti, Alexa Sharp, Sam Taggart, Cynthia Taylor, Emily Wang, Tom Wexler, Lucas Draper. The lab instructions were also contributed to by the following Oberlin Students: Veronica Ayars, Hannah Babe, Tara Bobinac, Meg Davis, Eliza Bomfim Guimaraes Giane, William Knowles-Kellett, Pascale Leone, Mist Newman, Marilyn Recarte, Shiying Zheng.
 */
 
 // IMPORTS 
